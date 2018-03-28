@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+div .keyword-title {
+    height: 60px;
+}
+
+.keyword-title {
+    line-height: 60px;
+    font-weight: 400;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+.btn-width{
+    width: 70px !important;
+}
+
+.history-date {
+    color: gray;
+}
+
+.history-data {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #FFFAFA;
+    border-radius: 1px;
+    width:70%;
+    height: auto;
+    background-color:white;
+    margin:10px auto;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.history-data .title {
+    line-height: 50px;
+    font-size: 10pt;
+    color: #424242 !important;
+    font-weight: 400;
+}
+
+.history-data .text {
+    line-height: 25px;
+    color: gray;
+}
+
+.article {
+    height:100px;
+    overflow: hidden;
+}
+
+.checkbox-center {
+    padding-left: 100px;
+}
+
+.display-tab {
+    height:550px;
+    overflow: scroll;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-button {
+    border-radius: 2px;
+    margin:20px;
+    border:none; 
+    background-color: #149452;
+    color:white; 
+    width:100px; 
+    height:30px;
+}
+
+.container {
+    width: 1000px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo img{
+    height: 100px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.history-link {
+    height: 100px;
+    line-height: 100px;
+    color: #989696;
+    font-size: 8px;
+}
+
+.history-link a:link{
+    color: #989696;
+}
+
+.history-link a:visited {
+    text-decoration: none;
+    color: #989696;
+}
+
+.history-link a:hover {
+    text-decoration: none;
+    color: #7A3CAC;
+}
+
+.input-type {
+    width: 90%;
+    height: 50px;
+    background: #ECECEC;
+    border-width: 0;
+}
+
+.date-input {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background: #ECECEC;
+    border-width: 0;
+}
+
+.date-label {
+    line-height: 50px;
+    font-size: 8px;
+}
+
+.left-input {
+    float: left;
+}
+
+.center-input {
+    margin: auto;
+}
+
+.right-input {
+    float: right;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 8px;
+}
+
+.btn-init {
+    height: 40px;
+    width: 120px;
+    background: #57AB7B;
+    border-width: 0;
+    font-size: 8px;
+}
+
+.fb-input {
+    width: 320px !important;
+}
+
+.line {
+    width: 100%;
+    background: #ECECEC;
+    height: 2px;
+    margin: 30px 0 30px 0;
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+}
+
+.top .result-top img {
+    height: 80px;
+}
+
+.selector {
+    line-height: 80px;
+}
+
+.history-title {
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.selector select{
+    width: 300px;
+    height: 50px;
+    background: #ECECEC;
+    border-width: 0;
+    text-align-last: center;
+}
+
+.selector select option{
+    width: 300px;
+    height: 50px;
+    background: #ECECEC;
+    border-width: 0;
+    text-align-last:center;
+}
+
+.table_history {
+    padding: 10px 20px 10px 20px;
+    
+}
+
+.table_history tbody {
+    height:500px;
+    overflow:auto;
+    display:block;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.table_history table {
+    border: 1px solid #DADBE0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.table_history table th{
+    padding-left: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: #49CDE4;
+    color: white;
+}
+
+.table_history table td{
+    padding-left: 20px;
+    width: 250px;
+    height: 30px;
+    font-weight: 200;
+}
+
+.table_history table tr:hover{
+    background-color: lightblue;
+}
+
+.table_history table thead {
+    display:block;
+}
+
+.nav-link {
+    color: #959595;
+}
+
+.nav-link .active {
+    color: black;
+}
+
+.minWidth {
+    min-width:1170px;
+}
+
+.no-data {
+    font-size: 20pt;
+    font-weight: 400;
+    width: 100%;
+    height: 300px;
+    line-height: 300px;
+}
